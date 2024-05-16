@@ -26,7 +26,7 @@ pipeline {
      //-------------------------
      stage('SonarQube Analysis') {
          steps{
-            withSonarQubeEnv() {
+            withSonarQubeEnv('sonarqube') {
                 sh "mvn clean verify sonar:sonar -Dsonar.projectKey=devsecops -Dsonar.projectName='devsecops'"
             }
          }
