@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb0ec15f-e3ad-417b-8574-7969cbb6267c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/file1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file2" afterDir="false" />
+    <list default="true" id="eb0ec15f-e3ad-417b-8574-7969cbb6267c" name="Default" comment="talisman">
+      <change afterPath="$PROJECT_DIR$/k8s_sonarqube_deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -288,6 +287,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/kevin/Desktop/2itech/formation-devsecops-tp",
     "node.js.detected.package.eslint": "true",
@@ -348,6 +348,15 @@
       <workItem from="1706917851712" duration="406000" />
       <workItem from="1715776519276" duration="4217000" />
     </task>
+    <task id="LOCAL-00001" summary="talisman">
+      <option name="closed" value="true" />
+      <created>1715868851583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715868851583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -381,6 +390,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="talisman" />
+    <option name="LAST_COMMIT_MESSAGE" value="talisman" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/setup/azure-vm-template/parameters.json">
