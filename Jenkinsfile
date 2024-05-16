@@ -23,7 +23,7 @@ pipeline {
     //--------------------------
      stage('Deployment Kubernetes  ') {
           steps {
-            withKubeConfig([credentialsId: 'configtssraks']) {
+            withKubeConfig([credentialsId: 'kube-config']) {
               sh "sed -i 's#replace#kevinpsirius/devops_courses:${GIT_COMMIT}#g' k8s_deployment_service.yaml"
               sh 'kubectl apply -f k8s_deployment_service.yaml'
             }
