@@ -25,9 +25,8 @@ pipeline {
 
      //-------------------------
      stage('SonarQube Analysis') {
-         def mvn = tool 'Default Maven';
          withSonarQubeEnv() {
-           sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=devsecops -Dsonar.projectName='devsecops'"
+           sh "mvn clean verify sonar:sonar -Dsonar.projectKey=devsecops -Dsonar.projectName='devsecops'"
          }
        }
     //--------------------------
