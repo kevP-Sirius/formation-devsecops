@@ -25,9 +25,12 @@ pipeline {
 
      //-------------------------
      stage('SonarQube Analysis') {
-         withSonarQubeEnv() {
-           sh "mvn clean verify sonar:sonar -Dsonar.projectKey=devsecops -Dsonar.projectName='devsecops'"
+         steps{
+            withSonarQubeEnv() {
+                sh "mvn clean verify sonar:sonar -Dsonar.projectKey=devsecops -Dsonar.projectName='devsecops'"
+            }
          }
+
        }
     //--------------------------
         stage('Mutation Tests - PIT') {
